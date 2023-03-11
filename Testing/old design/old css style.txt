@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Consolas;
+	box-sizing: border-box;
+}
+body {
+	margin:auto;
+	padding:0;
+	background:url(greysolidbg.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.header{
+	width: 30%;
+	margin: 100px auto 0px;
+	color: white;
+	background: rgba(0,0,0,.2) ;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form{
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: rgba(0,0,0,.2);
+	border-radius: 0px 0px 10px 10px;
+	
+}
+
+.input-group {
+	margin: 10px 0px 10px 20%;
+	color: white;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: black;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	margin: 0px 0px 0px 30%;
+}
+.buttonS {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.redword{
+	color: red;
+}
+
+/* index page design */
+  /* Style the header */
+  .index_header {
+	text-decoration: underline solid #28ad33 7px;
+	padding: 30px;
+	color: white;
+	text-align: center;
+  }
+  
+  /* Style the top navigation bar */	
+  .topnav {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+  }
+
+  .pg{
+	color: #28ad33;
+  }
+  .h2{
+	  color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+	.column {
+	  width: 100%;
+	}
+  }

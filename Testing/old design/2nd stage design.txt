@@ -1,0 +1,209 @@
+
+.header{
+	width: 30%;
+	margin: 100px auto 0px;
+	color: white;
+	background: rgba(0,0,0,.2) ;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form{
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: rgba(0,0,0,.2);
+	border-radius: 0px 0px 10px 10px;
+	
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+	color: white;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: black;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	margin: 0px 0px 0px 10px;
+}
+
+.redword{
+	color: red;
+}
+
+/* index page design */
+  /* Style the header */
+  .index_header {
+	text-decoration: underline solid #28ad33 7px;
+	padding: 30px;
+	color: white;
+	text-align: center;
+  }
+  
+  /* Style the top navigation bar */	
+  .topnav {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+  }
+
+  .pg{
+	color: #28ad33;
+  }
+  .h2{
+	  color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+	.column {
+	  width: 100%;
+	}
+  }
+
+  /*tesing design*/
+
+  html {
+	box-sizing: border-box;
+	font-size: 15px;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+}
+input {
+	border-style: none;
+	background: transparent;
+	outline: none;
+}
+button {
+	padding: 0;
+	background: none;
+	border: none;
+	outline: none;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: Consolas;
+	background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
+}
+h1.demo {
+	text-align: center;
+	font-size: 10px;
+	font-weight: normal;
+	margin-bottom: 1rem;
+	color: #f5f6ff;
+}
+button.demo {
+	text-align: center;
+	font-size: 10px;
+	font-weight: normal;
+	color: rgba(202, 205, 239, 0.8);
+	margin-bottom: 3rem;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	max-width: 1600px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0 0;
+   }
+	100% {
+		background-position: 100% 0;
+   }
+}
+.webflow-style-input {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	border-radius: 2px;
+	padding: 10px 10px 10px 10px;
+	background: rgba(57, 63, 84, 0.8);
+}
+.webflow-style-input:after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 999;
+	height: 2px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	background-position: 0% 0%;
+	background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
+	background-size: 500% auto;
+	animation: gradient 3s linear infinite;
+}
+.webflow-style-input input {
+	flex-grow: 1;
+	color: #bfd2ff;
+	font-size: 20px;
+	line-height: 10px;
+	vertical-align: middle;
+}
+.webflow-style-input input::-webkit-input-placeholder {
+	color: #7881a1;
+}
+
+
+/* button design experimental */
